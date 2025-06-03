@@ -9,7 +9,7 @@ async def welcome():
         print(f'Exception : {e}')
         raise HTTPException(status_code = 500, detail = str(e))
     
-@app.get("/")
+@app.get("/test")
 async def Bienvenue():
     try:
         return{"message": "Hello à mon cours Rcw"}
