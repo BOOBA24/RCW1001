@@ -1,5 +1,5 @@
 import requests
-url='https:rcw-api-project-e5a2d9apcsfefuhu.canadacentral-01.azurewebsites.net/test'
+url='https://rcw-api-project-e5a2d9apcsfefuhu.canadacentral-01.azurewebsites.net/'
 response=requests.get(url)
-reponse=response.json()
+data=response.json()
 print(response['message'])
